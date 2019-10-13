@@ -1,0 +1,126 @@
+body {
+  height: 100vh;
+}
+/* LOGIN PAGE SECTION */
+.login-page {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: #6d8ded;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  transition: 1s;
+}
+.login-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.front-image {
+  width: 800px;
+}
+.right-section {
+  margin-right: 70px;
+  float: right;
+}
+.left-section {
+  margin-left: 150px;
+  float: left;
+}
+
+/* MAIN PAGE SECTION */
+.main {
+  z-index: 0;
+}
+
+.left-panel {
+  top: 0px;
+  width: 300px;
+  display: inline-block;
+  float: left;
+  border: solid black 0.5px;
+}
+.centre-view {
+  display: inline-block;
+}
+.left-centre {
+  display: grid;
+  margin-top: 200px;
+  margin-right: 100px;
+  margin-left: 150px;
+  width: 350px;
+  height: 450px;
+  border: solid black 0.5px;
+  display: inline-block;
+  position: relative;
+}
+.right-centre {
+  margin-top: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+  width: 350px;
+  height: 450px;
+  border: solid black 0.5px;
+  display: inline-block;
+  position: relative;
+}
+.right-panel {
+  height: 600px;
+  display: inline-block;
+  float: right;
+  border: solid black 0.5px;
+}
+input {
+  margin: 15px;
+}
+form {
+  margin-top: 100px;
+  height: 600px;
+}
+.garment-list {
+  margin-top: 100px;
+}
+.garment-type {
+  padding: 5px;
+  margin: 15px;
+  border: solid black 0.5px;
+}
+img {
+  max-width: 350px;
+}
+.bodyImg{
+  position: absolute;
+}
+
+i {
+  font-size: 35px
+}
+/*NECK*/
+.neckImg{
+  position: absolute;
+}
+#neck-i-left {
+  position: absolute;
+  top: 80px;
+  left: -50px;
+}
+#neck-i-right {
+  position: absolute;
+  top: 80px;
+  right: -50px;
+}
+/*SLEEVE*/
+.sleeveImg{
+  position: absolute;
+}
+#sleeve-i-left {
+  position: absolute;
+  top: 120px;
+  left: -50px;
+}
+#sleeve-i-right {
+  position: absolute;
+  top: 120px;
+  right: -50px;
+}
